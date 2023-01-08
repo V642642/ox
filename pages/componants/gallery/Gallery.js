@@ -29,7 +29,6 @@ const Gallery = () => {
                       width={0}
                       height={0}
                       alt="oscenox"
-                      priority={true}
                       className={styles.first_grid_img}
                     />
                     <Link
@@ -57,7 +56,6 @@ const Gallery = () => {
                         src="/image/little-ams-min.webp"
                         width={0}
                         height={0}
-                        priority={true}
                         alt="oscenox"
                         className={styles.second_grid_top_img}
                       />
@@ -77,7 +75,6 @@ const Gallery = () => {
                             src="/image/bunkStay.webp"
                             width={0}
                             height={0}
-                            priority={true}
                             alt="oscenox"
                             className={styles.second_grid_bottom_left_top_img}
                           />
@@ -95,7 +92,6 @@ const Gallery = () => {
                               src="/image/rafting.webp"
                               width={0}
                               height={0}
-                              priority={true}
                               alt="oscenox"
                               className={styles.first_box_img}
                             />
@@ -108,7 +104,6 @@ const Gallery = () => {
                               src="/image/bike-rent.webp"
                               width={0}
                               alt="oscenox"
-                              priority={true}
                               height={0}
                               className={styles.second_box_img}
                             />
@@ -125,7 +120,6 @@ const Gallery = () => {
                             width={0}
                             alt="oscenox"
                             height={0}
-                            priority={true}
                             className={styles.second_right_bottom_top_img}
                           />
                           <div className={styles.grid_wapper}>
@@ -149,7 +143,6 @@ const Gallery = () => {
                       src="/image/mgHotel.jpg"
                       width={0}
                       alt="oscenox"
-                      priority={true}
                       height={0}
                       className={styles.first_grid_delhi_img}
                     />
@@ -175,7 +168,6 @@ const Gallery = () => {
                       <Image
                         src="/image/restaurant-le.jpg"
                         width={0}
-                        priority={true}
                         height={0}
                         alt="oscenox"
                         className={styles.second_grid_top_delhi_img}

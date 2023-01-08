@@ -60,7 +60,6 @@ const CarouselSlider = () => {
                     src="/image/rooms_one.webp"
                     width={0}
                     height={0}
-                    priority={true}
                     alt="oscenox"
                     className={styles.first_slider_img}
                   />
@@ -99,7 +98,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.second_slider_img}
                   />
                   <div className={styles.slider_wapper}>
@@ -136,7 +134,6 @@ const CarouselSlider = () => {
                     src="/image/bunkStay.webp"
                     width={0}
                     height={0}
-                    priority={true}
                     alt="oscenox"
                     className={styles.third_slider_img}
                   />
@@ -174,7 +171,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.fourth_slider_img}
                   />
                   <div className={styles.slider_wapper}>
@@ -213,7 +209,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.fiveth_slider_img}
                   />
                   <div className={styles.slider_wapper}>
@@ -249,7 +244,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.sixth_slider_img}
                   />
                   <div className={styles.slider_wapper}>
@@ -287,7 +281,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.first_slider_img}
                   />
               <div className={styles.slider_wapper}>
@@ -319,7 +312,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.second_slider_img}
                   />
               <div className={styles.slider_wapper}>
@@ -351,7 +343,6 @@ const CarouselSlider = () => {
                     width={0}
                     height={0}
                     alt="oscenox"
-                    priority={true}
                     className={styles.third_slider_img}
                   />
               <div className={styles.slider_wapper}>
