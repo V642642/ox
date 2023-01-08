@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+i {
+	margin-right: 10px;
+}
+
+.swissCottagePage{
+  margin-top: 4.5%;
+}
+
+/* Bootstarp Accordian modified */
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+  background-color: #338C9C !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,.125) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+/* Gallery Tabs */
+
+.nav-tabs .nav-item .nav-link {
+  color: #338C9C;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #338C9C;
+  color: #fff;
+
+}

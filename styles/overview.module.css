@@ -1,0 +1,101 @@
+.overview_heading h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.overview_heading h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10vw;
+    background-color: #338C9C;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.view_more{
+    padding: 0 15rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.read_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read_btn button {
+    width: 137px;
+    height: 28px;
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #338C9C;
+    font-size: 14px;
+    font-weight: 700;
+    color: #338C9C;
+    cursor: pointer;
+}
+
+.review_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5rem;
+    flex-wrap: wrap;
+}
+.icon_name{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:  1px solid #D9D9D9;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icon_name h1{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #338C9C;
+}
+.icon_name p{
+    font-size: 35px;
+}
+@media (max-width: 500px){
+    .review_item{
+        margin: 20px;
+    }
+    .view_more {
+        padding: 0 1rem;
+    }
+    .review_item{
+        padding: 0px 0;
+    }
+    .icon_name {
+        width: 146px;
+        margin: 5px;
+    }
+    .overview_heading h1{
+        font-size: 20px;
+    }
+    .overview_heading h1::after{
+        width: 30vw;
+    }
+}

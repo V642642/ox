@@ -1,0 +1,62 @@
+.terms_box_banner{
+    margin-top: 3.8%;
+    background-image: url("../public/image/swiss-cottage-min.jpg");
+    background-repeat: no-repeat;
+    background-size: 1520px 600px;
+    width: 100%;
+    height: 600px;
+}
+.terms_banner_wapper{
+    background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.7);
+	color: white;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terms_banner_wapper h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px #4EAEBF;
+    opacity: 0.5;
+}
+.terms_content{
+    margin-top: 30px;
+}
+.terms_content ul li{
+    padding: 10px;
+}
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+    .terms_box_banner{
+        background-size: 1024px 450px;
+        width: 100%;
+        height: 450px;
+    }
+    .terms_banner_wapper h1{
+        font-size: 40px;
+    }
+    .terms_content ul li{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+    .terms_box_banner{
+        background-size: 740px 300px;
+        width: 100%;
+        height: 300px;
+        margin-top: 58px;
+    }
+    .terms_banner_wapper h1{
+        font-size: 30px;
+    }
+    .terms_content ul li{
+        font-size: 14px;
+    }
+}

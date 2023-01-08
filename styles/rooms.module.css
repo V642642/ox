@@ -1,0 +1,137 @@
+.rooms_heading h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -15px;
+}
+.room_room{
+    background: rgba(237, 247, 251, 1);
+}
+.rooms_heading h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10vw;
+    background-color: #338C9C;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rooms_heading p{
+    padding: 20px 20rem;
+    text-align: center;
+}
+
+.rooms_box{
+    padding: 5px 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rooms_item{
+    width: 356px;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.rooms_text{
+    padding: 10px;
+}
+.rooms_text h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #003450;
+}
+
+.rooms_text h2{
+    font-size: 11px;
+    font-weight: 700;
+    color: #22222299;
+}
+
+.rooms_text span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D3451;
+}
+
+.rooms_text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #222222;
+}
+.item_icon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.item_icon h3{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.item_icon h5{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.item_icon h4{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.rooms_btn{
+    padding: 0 10px;
+}
+
+.rooms_btn a{
+    border: 1px solid #338C9C;
+    background-color: #338C9C;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.rooms_btn a:hover{
+    background-color: #ffffff;
+    color: #338C9C;
+}
+
+
+@media (max-width: 500px) {
+    .rooms_heading h1::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 20vw;
+        background-color: #338C9C;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .rooms_box{
+        padding: 0 0;
+    }    
+    .rooms_heading p{
+        padding: 20px 2rem;
+    }
+    .rooms_item{
+        width: 356px;
+        height: 430px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}

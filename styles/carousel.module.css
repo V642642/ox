@@ -1,0 +1,176 @@
+/* Carousel */
+
+.carousel_heading{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 18px 0px 10px;
+}
+.carousel_heading h3{
+	color: #338C9C;
+	font-size: 22px;
+	font-weight: bold;
+}
+.carousel_heading .view_button{
+	color: #338C9C;
+	text-decoration: none;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.slider_wapper{
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.4);
+	color: white;
+	position: relative;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+
+.first_slider{
+	width: 400px;
+	height: 400px;
+}
+.first_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.dicountTag{
+	background-color: #4EAEBF;
+	width: 50%;
+	position: relative;
+	top: 15%;
+	text-align: center;
+}
+.dicountTag p{
+	font-size: 16px;
+	padding: 8px 0px;
+}
+.sliderDetailsText{
+	width: 70%;
+	box-shadow: 0px 4px 10px gray;
+	position: relative;
+	top: 75%;
+	left: 15%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	padding: 15px 10px 5px 10px;
+}
+
+.sliderDetailsText div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sliderDetailsText div h5, .sliderDetailsText div button, .sliderDetailsText div p{
+	font-size: 18px;
+}
+.price_box{
+	color: green;
+	font-weight: bold;
+}
+.price_box small{
+	color: black;
+}
+
+.second_slider{
+	width: 400px;
+	height: 400px;
+	margin-bottom: 100px;
+}
+.second_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.third_slider{
+	width: 400px;
+	height: 400px;
+	/* background-image: url('../public/image/bunkStay.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	margin-bottom: 100px;
+}
+.third_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.fourth_slider{
+	width: 400px;
+	height: 400px;
+	/* background-image: url('../public/image/caro-hotel.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	/* border-radius: 5%; */
+	margin-bottom: 100px;
+}
+.fourth_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.fiveth_slider{
+	width: 400px;
+	height: 400px;
+	/* background-image: url('../public/image/restaurant-le.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	/* border-radius: 5%; */
+	margin-bottom: 100px;
+}
+.fiveth_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.sixth_slider{
+	width: 400px;
+	height: 400px;
+	/* background-image: url('../public/image/restaurent_oscenox.jpeg'); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	/* border-radius: 5%; */
+	margin-bottom: 100px;
+}
+.sixth_slider_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+.formobile{
+	display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 740px){
+	
+	.forDesktop{
+		display: none;
+	}
+	.formobile{
+		display: block;
+	}
+	.first_slider, .second_slider, .third_slider{
+		width: 99.5%;
+	}
+	.first_slider{
+		margin-top: 2.5%;
+	}
+	.second_slider, .third_slider{
+		margin-top: 30%;
+	}
+	.sliderDetailsText div h5{
+		font-size: 16px;
+	}
+	.sliderDetailsText div button{
+		font-size: 12px;
+	}
+}

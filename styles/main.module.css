@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.main_heading {
+    display: flex;
+    padding: 10px 3rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.main_heading .left_text h1 {
+    color: #338C9C;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_heading .left_text p {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_heading .left_text h3{
+    display: none;
+    font-family: 'Poppins', sans-serif;
+}
+.main_heading .left_text span{
+    color: #338C9C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_heading .right_text p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+    font-family: 'Poppins', sans-serif;
+}
+.main_heading .right_text h1{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_heading .right_text span{
+    color: #338C9C;
+    font-family: 'Poppins', sans-serif;
+}
+.main_heading .right_text h3{
+    display: none;
+    font-family: 'Poppins', sans-serif;
+}
+.main_heading .right_text a{
+    padding: 5px 20px;
+    border: 1px solid #338C9C;
+    background-color: #338C9C;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.main_heading .right_text a:hover{
+    background-color: #ffffff;
+    color: #338C9C;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media  (max-width: 500px) {
+    .main_heading {
+        display: flex;
+        padding: 10px 0.50rem;
+        margin-top: 23%;
+    }
+    .main_heading .left_text h1 {
+        color: #338C9C;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .main_heading .left_text p {
+        display: none;
+    }
+    .main_heading .left_text h3{
+       display: block;
+       font-size: 14px;
+       font-weight: 400;
+    }
+    .main_heading .right_text h3{
+        display: block;
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .main_heading .right_text p {
+        display: none;
+    }
+    .main_heading .right_text h1{
+        display: none;
+    }
+    .main_heading .right_text button{
+        padding: 5px 25px;
+        border: 1px solid #338C9C;
+        background-color: #338C9C;
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-align: center;
+    }
+}

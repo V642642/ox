@@ -1,0 +1,140 @@
+.sub_footer{
+	background-color: #338C9C;
+	width: 100%;
+	height: auto;
+	color: white;
+}
+.sub_footer_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.sub_footer_first_box{
+	width: 30%;
+	border-right: 1px solid white;
+}
+.sub_footer_first_box p{
+	padding: 20px;
+	font-size: 18px;
+}
+/* .sub_footer_last_box{
+	width: 40%;
+} */
+.sub_footer_first_box button{
+	border-color: white;
+	background: none;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+}
+.footer{
+	background-color: #222127;
+	padding-top: 25px;
+	color: #767381;
+}
+.footer_box{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.footer_last_box{
+	width: 25%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+.redirect{
+    text-decoration: none;
+    color: #767381;
+}
+.redirect:hover{
+    color: #0d6efd;
+}
+.footer h6{
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.footer p{
+	margin-top: -10px;
+	font-size: 14px;
+}
+.footer i{
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+.copyright{
+	background-color: #338C9C;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+    .sub_footer_first_box p{
+        font-size: 12px;
+	}
+	.sub_footer_last_box button{
+        font-size: 14px;
+	}
+    .footer_first_box{
+        width: 20%;
+    }
+    .footer_second_box{
+        width: 20%;
+    }
+    .footer_last_box{
+        width: 20%;
+    }
+	.footer h6{
+		font-size: 16px;
+	}
+	.footer p{
+		font-size: 12px;
+	}
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+	.sub_footer_content{
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.sub_footer_first_box{
+		width: 100%;
+		border: none;
+	}
+	.mobileView{
+		margin-top: -30px;
+	}
+	.sub_footer_last_box{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.sub_footer_last_box button{
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	.sub_footer_first_box p{
+		font-size: 16px;
+	}
+    .sub_footer_last_box{
+        text-align: center;
+    }
+	.footer_box{
+		display: block;
+	}
+	.footer h6{
+		font-size: 18px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+	.footer_last_box{
+		width: 100%;
+		justify-content: left;
+	}
+}

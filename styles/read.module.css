@@ -1,0 +1,30 @@
+.read_card{
+    padding: 10px 15%;
+}
+
+.read_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.read_card button { 
+    width: 137px;
+    height: 28px;
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #338C9C;
+    font-size: 14px;
+    font-weight: 700;
+    color: #338C9C;
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+    .read_card {
+        padding: 10px 5%;
+    }
+}

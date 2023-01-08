@@ -1,0 +1,359 @@
+.explore_section{
+	text-align: center;
+	width: 100%;
+}
+.explore_big{
+	font-weight: bold;
+	color: #338C9C;
+	opacity: 0.1;
+	margin-top: -30px;
+}
+.explore_big p{
+	font-size: 30vh;
+}
+.explore_text{
+	margin-top: -157px;
+	color: #338C9C;
+}
+.explore_text h1{
+	font-size: 53px;
+}
+.gallery_heading{
+	display: flex;
+	margin-top: 65px;
+	padding-left: 25px;
+}
+.gallery_heading button{
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	background: none;
+	color: #338C9C;
+}
+.gallery_section{
+	display: flex;
+	justify-content: space-evenly;
+}
+.first_grid{
+	width: 55%;
+	height: 670px;
+	margin: 10px;
+}
+.first_grid_img{
+	/* background-image: url("../public/image/swiss-cottage-min.jpg"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 715px 670px; */
+	width: 100%;
+	height: 100%;
+}
+.grid_wapper{
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.6);
+	color: white;
+	position: relative;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 4px 4px 10px gray;
+}
+.link_div{
+	text-decoration: none;
+}
+.resort_heading{
+	text-align: left;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.swiss_big{
+	font-size: 50px;
+	font-weight: 600;
+}
+.book_btn{
+	text-align: right;
+	margin-top: -25px;
+}
+.title_head{
+	font-size: 30px;
+	text-align: left;
+	font-weight: 500;
+}
+.title_bottom{
+	font-size: 18px;
+	text-align: left;
+	margin-top: -15px;
+}
+.second_grid{
+	width: 40%;
+	height: 650px;
+}
+.second_grid_top{
+	width: 100%;
+	height: 40%;
+	/* background-image: url("../public/image/little-ams-min.jpg"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 520px 260px; */
+	margin: 10px 0px;
+}
+.second_grid_top_img{
+	width: 100%;
+	height: 100%;
+}
+.second_grid_bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 60%;
+}
+.second_grid_bottom_left{
+	width: 62%;
+	height: 100%;
+}
+.second_grid_bottom_left_top{
+	width: 100%;
+	height: 50%;
+	/* background-image: url("../public/image/bunkStay.jpg"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 320px 195px; */
+	margin: 0px 10px 10px 0px;
+}
+.second_grid_bottom_left_top_img{
+	width: 100%;
+	height: 100%;
+}
+.secont_bottom_left_bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+.first_box{
+	width: 48%;
+	height: 100%;
+}
+.first_box_img{
+	width: 100%;
+	height: 100%;
+}
+.second_box{
+	width: 48%;
+	height: 100%;
+}
+.second_box_img{
+	width: 100%;
+	height: 100%;
+}
+.second_right_bottom{
+	width: 35%;
+	height: 100%;
+}
+.second_right_bottom_top{
+	width: 100%;
+	height: 90%;
+}
+.second_right_bottom_top_img{
+	width: 100%;
+	height: 100%;
+}
+.second_right_bottom_btn{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* delhi */
+
+.gallery_tabs{
+	width: 206px;
+	margin-bottom: 15px;
+	border: none;
+	padding-left: 25px;
+}
+
+.first_grid_delhi{
+	/* background-image: url("../public/image/mgHotel.jpg"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 715px 670px; */
+	width: 55%;
+	height: 670px;
+	margin: 10px;
+}
+.first_grid_delhi_img{
+	width: 100%;
+	height: 100%;
+}
+.second_grid_top_delhi{
+	width: 100%;
+	height: 50%;
+	/* background-image: url("../public/image/restaurant-le.jpg"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 520px 325px; */
+	margin: 10px 0px;
+}
+.second_grid_top_delhi_img{
+	width: 100%;
+	height: 100%;
+}
+.second_grid_bottom_delhi{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 51%;
+}
+.second_grid_bottom_left_delhi{
+	width: 59%;
+	height: 100%;
+}
+.second_grid_bottom_left_top_delhi{
+	width: 100%;
+	height: 48.5%;
+	/* background-image: url("../public/image/new-delhi-tour-package.webp"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: 310px 195px; */
+}
+.second_grid_bottom_left_top_delhi_img{
+	width: 100%;
+	height: 100%;
+}
+.second_grid_bottom_left_bottom_delhi{
+	width: 100%;
+	height: 48.5%;
+	margin-top: 10px;
+}
+.second_grid_bottom_left_bottom_delhi_img{
+	width: 100%;
+	height: 100%;
+}
+.second_grid_bottom_right_delhi{
+	width: 39%;
+	height: 100%;
+	/* background-image: url("../public/image/dj_night.webp"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+}
+.second_grid_bottom_right_delhi_img{
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+
+	.explore_big{
+		margin-top: -25px;
+		text-align: center;
+	}
+	.explore_big p{
+		font-size: 21vh;
+	}
+	.explore_text{
+		margin-top: -115px;
+	}
+	.explore_text h1{
+		font-size: 38px;
+	}
+	.gallery_heading h3{
+		font-size: 20px;
+		font-weight: bold;
+		padding-left: 15px;
+	}
+	.gallery_section{
+		display: block;
+	}
+	.first_grid{
+		background-size: auto;
+		width: 100%;
+		height: 600px;
+		margin: 10px;
+	}
+	.second_grid{
+		width: 100%;
+		height: 500px;
+	}
+	.second_grid_top{
+		width: 100%;
+		height: 40%;
+		background-size: cover;
+	}
+	.second_grid_bottom_left_top{
+		width: 100%;
+		height: 50%;
+		background-size: 600px 195px;
+	}
+	.first_img{
+		width: 48%;
+		height: 100%;
+		background-size: 280px 200px;
+	}
+	.second_img{
+		width: 48%;
+		height: 100%;
+		background-size: 280px 200px;
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 740px){
+
+	.explore_big{
+		margin-top: -1px;
+		text-align: center;
+	}
+	.explore_big p{
+		font-size: 10vh;
+	}
+	.explore_text{
+		margin-top: -66px;
+	}
+	.explore_text h1{
+		font-size: 19px;
+	}
+	.gallery_heading h3{
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: -17px;
+		margin-left: -13px;
+	}
+	.gallery_section{
+		display: block;
+	}
+	.grid_wapper, .second_grid_top, .second_grid_bottom_left_top, .first_img, .second_img, .second_right_bottom_top, .second_grid_top_delhi, .second_grid_bottom_left_top_delhi, .second_grid_bottom_left_bottom_delhi, .second_grid_bottom_right_delhi{
+		border-radius: 5%;
+	}
+	.first_grid, .first_grid_delhi{
+		background-size: cover;
+		width: 100%;
+		height: 370px;
+		border-radius: 5%;
+		margin: 10px 0px 0px 0px;
+	}
+	.second_grid{
+		width: 100%;
+		height: 500px;
+	}
+	.swiss_big{
+		font-size: 23px;
+		text-align: left;
+		padding: 0px 10px;
+	}
+	.resort_heading{
+		padding: 0px 10px;
+		font-size: 18px;
+	}
+	.title_head{
+		font-size: 20px;
+	}
+	.bunk_title{
+		font-size: 14px;
+	}
+	.gallery_tabs{
+		padding: 0px;
+	}
+}

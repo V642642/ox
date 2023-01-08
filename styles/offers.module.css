@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(237, 247, 251, 1);
+}
+
+.offers_item {
+    width: 418px;
+    height: 470.36px;
+    border-radius: 10px;
+}
+
+.offers_item h1 {
+    font-size: 51px;
+    color: #338C9C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.offers_itemm p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #338C9C;
+}
+
+.offers_item span {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #338C9C;
+    font-weight: 700;
+}
+
+.offers_item h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #474747;
+    font-family: 'Poppins', sans-serif;
+}
+
+.offers_item a {
+    padding: 5px 25px;
+    border: 1px solid #338C9C;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #338C9C;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.offers_item a:hover {
+    background-color: #ffffff;
+    color: #338C9C;
+}
+
+.offers_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.offers_item:nth-child(4) {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+
+    .offers_item {
+        height: 500.36px;
+    }
+
+    .offers {
+        padding: 5px 1rem;
+    }
+
+    .offers_item .offers_btn {
+        display: none;
+    }
+
+    .offers_item:nth-child(1) {
+        width: 408px;
+        height: 120.36px;
+    }
+
+    .offers_item h1 {
+        font-size: 46px;
+    }
+
+    .offers_item h2 {
+        display: none;
+    }
+
+    .offers_item p {
+        display: none;
+    }
+
+    .offers_item:nth-child(2) {
+        width: 420px;
+        height: 380.36px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .offers_item:nth-child(3) {
+        width: 420px;
+        height: 380.36px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .offers_item:nth-child(4) {
+        height: 170.36px;
+    }
+
+    .offers_item:nth-child(4) {
+        display: block;
+    }
+
+    .offers_item:nth-child(4) h2 {
+        display: block;
+    }
+
+    .offers_item:nth-child(4) p {
+        display: block;
+    }
+
+    .offers_item:nth-child(4) button {
+        display: block;
+    }
+
+}

@@ -1,0 +1,121 @@
+.contact_banner{
+    margin-top: 3.8%;
+    background-image: url("../public/image/banner.webp");
+    background-repeat: no-repeat;
+    background-size: 1520px 550px;
+    width: 100%;
+    height: 550px;
+}
+.contact_banner_wapper{
+    background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.7);
+	color: white;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_banner_wapper h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px #4EAEBF;
+    opacity: 0.5;
+}
+.contact_description{
+    background-color: #4EAEBF;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.contact_description h1{
+    font-size: 35px;
+}
+.underline_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underline_box div{
+    background-color: black;
+    width: 80px;
+    height: 2px;
+}
+.contact_description h5{
+    padding-top: 12px;
+}
+.contact_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    color: #4EAEBF;
+}
+.phone_details, .address_details, .email_details{
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+.horizantal_box{
+    width: auto;
+    height: auto;
+}
+.horizantal_box div{
+    width: 2px;
+    height: 150px;
+    background-color: black;
+}
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+    .phone_details, .address_details, .email_details{
+        width: 33%;
+    }
+    .horizantal_box div{
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+    .contact_banner{
+        background-size: auto 250px;
+        width: 100%;
+        height: 250px;
+        margin-top: 58px;
+    }
+    .contact_banner_wapper h1{
+        font-size: 30px;
+    }
+    .contact_description{
+        width: 100%;
+        height: 200px;
+    }
+    .contact_description h1{
+        font-size: 20px;
+    }
+    .contact_description h5{
+        font-size: 14px;
+    }
+    .underline_box div{
+        width: 60px;
+    }
+    .contact_details{
+        display: block;
+    }
+    .phone_details, .address_details, .email_details{
+        width: 100%;
+    }
+    .horizantal_box, .horizantal_box div{
+        display: none;
+    }
+}

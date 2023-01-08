@@ -1,0 +1,155 @@
+.socile_heading h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 30px;
+}
+
+.socile_heading h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10vw;
+    background-color: #338C9C;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.socile_section{
+    width: 100%;
+}
+.socile_wrap{
+    padding-top: 0;
+}
+.socile_images{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.socile_gallery a{
+    text-decoration: none;
+    color: #fff;
+}
+.socile_gallery{
+    width: 100%;
+    position: relative;
+}
+.images_img{
+    width: 100%;
+}
+.soci_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.caption{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(51, 140, 156, 0.8);
+    color: #fff;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.30s;
+}
+.caption h1{
+    font-size: 25px;
+    font-size: 700;
+}
+.caption_one{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(51, 140, 156, 0.8);
+    color: #fff;
+    border-radius: 10px;
+}
+.caption_one h1{
+    font-size: 16px;
+    font-weight: 500;
+}
+.caption_one a{
+    color: #fff;
+    font-size: 12px;
+}
+.caption:hover{
+    opacity: 1;
+}
+
+@media (max-width: 992px){
+    .socile_images{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 500px){
+    .socile_images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .socile_heading h1{
+        font-size: 18px;
+    }
+    
+    .socile_heading h1::after{
+        width: 30vw;
+    }
+    .insta_img_1{
+        height: 150px;
+    }
+    .insta_img_2{
+        height: 150px;
+    }
+    .insta_img_3{
+        height: 150px;
+    }
+    .insta_img_4{
+        height: 150px;
+    }
+    .insta_img_5{
+        height: 150px;
+    }
+    .insta_img_6{
+        height: 150px;
+    }
+    .insta_img_7{
+        display: none;
+    }
+    .insta_img_8{
+        display: none;
+    }
+    .caption_one h1{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .caption_one p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .caption_one span{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+}

@@ -1,0 +1,153 @@
+
+/* Oscenox India */
+
+.oscenox_box{
+	margin-bottom: 80px;
+}
+
+.oscenox_big{
+	font-weight: bold;
+	color: #338C9C;
+	opacity: 0.1;
+	margin-top: -30px;
+}
+.oscenox_big p{
+	font-size: 21.5vh;
+	text-align: center;
+}
+
+.oscenox_detail{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content_img_box{
+	width: 45%;
+	height: 550px;
+	background-color: #4EAEBF;
+	border-radius: 10%;
+	box-shadow: 4px 4px 10px gray;
+}
+.content_img{
+	/* background-image: url("../public/image/oscenox-india1.jpg"); */
+	/* background-size: cover; */
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	border-radius: 10%;
+	margin: 20px 0px 0px 20px;
+	box-shadow: 4px 4px 10px gray;
+}
+.content_text{
+	width: 45%;
+	height: auto;
+	font-size: 14px;
+}
+.readbtn{
+	display: none;
+}
+.desktop_readbtn{
+	text-align: right;
+}
+.desktop_btn{
+	width: 137px;
+    height: 28px;
+    background-color: #338C9C;
+    border-radius: 10px;
+	text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+	padding: 10px;
+}
+.desktop_btn:hover{
+	color: black;
+}
+
+#more {display: none;}
+
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+
+	/* Oscenox India */
+
+	.oscenox_big{
+		margin-top: -60px;
+		text-align: center;
+	}
+	.oscenox_big p{
+		font-size: 10vh;
+	}
+	.content_img_box{
+		width: 45%;
+		height: 450px;
+		background-color: #4EAEBF;
+		border-radius: 10%;
+	}
+	.oscenox_detail{
+		display: block;
+	}
+	.content_img_box{
+		width: 90%;
+		height: 400px;
+	}
+	.content_text{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+
+	/* Oscenox India */
+
+	.oscenox_big{
+		margin-top: -1px;
+		text-align: center;
+	}
+	.oscenox_big p{
+		font-size: 5.8vh;
+	}
+	.oscenox_detail{
+		display: block;
+	}
+	.content_img_box{
+		width: 90%;
+		height: 250px;
+		margin-top: -20px;
+	}
+	.content_text{
+		width: 100%;
+		height: auto;
+		text-align: left;
+		margin-top: 15px;
+		padding: 0px 10px;
+		font-size: 16px;
+	}
+	.readbtn{
+		display: block;
+		text-align: right;
+	}
+	.readbtn button{
+		width: 137px;
+		height: 28px;
+		background-color: none;
+		border-radius: 10px;
+		border: none;
+		border-bottom: 1px solid #338C9C;
+		font-size: 14px;
+		font-weight: 700;
+		color: #338C9C;
+		cursor: pointer;
+	}
+	.desktop_content, .desktop_readbtn{
+		display: none;
+	}
+}
