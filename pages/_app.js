@@ -3,9 +3,7 @@ import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dynamic from "next/dynamic";
 
-const Footer = dynamic(() => import("./componants/footer/Footer"),{
-  ssr: false
-});
+const Footer = dynamic(() => import("./componants/footer/Footer"));
 
 const CallNow = dynamic(() => import("./componants/CallNow/callnow"),{
   ssr: false
