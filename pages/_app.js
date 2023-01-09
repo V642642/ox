@@ -10,6 +10,7 @@ const CallNow = dynamic(() => import("./componants/CallNow/callnow"),{
 });
 
 import Header from "./componants/Navbar/Header";
+import LazyLoad from 'react-lazyload';
 
 function MyApp({ Component, pageProps }) 
 
@@ -54,7 +55,9 @@ function MyApp({ Component, pageProps })
       <Component {...pageProps} />
       {/* Footer */}
       <div className="mt-5">
+      <LazyLoad offset={100}>
         <Footer />
+        </LazyLoad>
       </div>
       <CallNow />
     </>
