@@ -13,10 +13,10 @@ const Offers = () => {
         </div>
 
         <div className={Styles.offers_item}>
-        <Image alt="oscenox" src="/image/from_img.jpg" width={100} height={100} className={Styles.offers_img} />
+        <Image alt="oscenox" src="/image/from_img.webp" width={100} height={100} className={Styles.offers_img} />
         </div>
         <div className={Styles.offers_item}>
-        <Image alt="oscenox" src="/image/newimg.png" width={100} height={100} className={Styles.offers_img} />
+        <Image alt="oscenox" src="/image/newimg.webp" width={100} height={100} className={Styles.offers_img} />
         </div>
 
         <div className={Styles.offers_item}>

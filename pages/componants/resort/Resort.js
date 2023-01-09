@@ -21,7 +21,7 @@ const Resort = () => {
       <div className={Styles.resort_box}>
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img}>
-            <Image alt="oscenox" src="/image/restaurent_oscenox.jpeg" width={100} height={100} className={Styles.explore} />
+            <Image alt="oscenox" src="/image/restaurent_oscenox.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}
@@ -36,7 +36,7 @@ const Resort = () => {
 
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img_3}>
-          <Image alt="oscenox" src="/image/resort_3.jpg" width={100} height={100} className={Styles.explore} />
+          <Image alt="oscenox" src="/image/resort_3.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}
@@ -47,7 +47,7 @@ const Resort = () => {
 
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img_4}>
-          <Image alt="oscenox" src="/image/resort_4.jpeg" width={100} height={100} className={Styles.explore} />
+          <Image alt="oscenox" src="/image/resort_4.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}
@@ -58,7 +58,7 @@ const Resort = () => {
 
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img_5}>
-          <Image alt="oscenox" src="/image/resort_5.jpg" width={100} height={100} className={Styles.explore} />
+          <Image alt="oscenox" src="/image/resort_5.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}
@@ -69,7 +69,7 @@ const Resort = () => {
 
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img_6}>
-          <Image alt="oscenox" src="/image/resort_6.png" width={100} height={100} className={Styles.explore} />
+          <Image alt="oscenox" src="/image/resort_6.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}
@@ -91,7 +91,7 @@ const Resort = () => {
 
         <div className={Styles.resort_container}>
           <div className={Styles.resort_img_8}>
-          <Image alt="oscenox" src="/image/resort_8.jpg" width={100} height={100} className={Styles.explore} />
+          <Image alt="oscenox" src="/image/resort_8.webp" width={100} height={100} className={Styles.explore} />
           </div>
           <div
             className={`${Styles.resort_overlay} ${Styles.resort_overlayleft}`}

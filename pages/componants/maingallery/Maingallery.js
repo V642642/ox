@@ -18,16 +18,16 @@ const Maingallery = () => {
 
     <div className={Styles.line_img}>
       <div className={`${Styles.mian_galler_img_line} `}>
-        <Image alt="oscenox" src="/image/home_dj_4.jpg" width={0} height={0} className={Styles.line_img_line} />
+        <Image alt="oscenox" src="/image/home_dj_4.webp" width={0} height={0} className={Styles.line_img_line} />
       </div>
       <div className={`${Styles.mian_galler_img_line} `}>
       <Image alt="oscenox" src="/image/rafting.webp" width={0} height={0} className={Styles.line_img_line} />
       </div>
       <div className={`${Styles.mian_galler_img_line} `}>
-      <Image alt="oscenox" src="/image/restaurent_oscenox.jpeg" width={0} height={0} className={Styles.line_img_line} />
+      <Image alt="oscenox" src="/image/restaurent_oscenox.webp" width={0} height={0} className={Styles.line_img_line} />
       </div>
       <div className={`${Styles.mian_galler_img_line} `}>
-      <Image alt="oscenox" src="/image//picture1.jpg" width={0} height={0} className={Styles.line_img_line} />
+      <Image alt="oscenox" src="/image//picture1.webp" width={0} height={0} className={Styles.line_img_line} />
       </div>
       </div>
 

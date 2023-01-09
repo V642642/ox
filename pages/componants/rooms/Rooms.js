@@ -20,7 +20,7 @@ const Rooms = () => {
 
         <div className={Styles.rooms_item}>
           <div className={Styles.rooms_img}>
-            <Image  src="/image/room_1.jpg" width="356" height="200" alt="room-img"></Image>
+            <Image  src="/image/room_1.webp" width="356" height="200" alt="room-img"></Image>
           </div>
           <div className={Styles.rooms_text}>
             <h1>Standard Room</h1>
@@ -51,7 +51,7 @@ const Rooms = () => {
 
         <div className={Styles.rooms_item}>
           <div className={Styles.rooms_img}>
-            <Image src="/image/room_2.jpg" width="356" height="200" alt="room-img"></Image>
+            <Image src="/image/room_2.webp" width="356" height="200" alt="room-img"></Image>
           </div>
           <div className={Styles.rooms_text}>
             <h1>Delux Room</h1>
@@ -85,7 +85,7 @@ const Rooms = () => {
         </div>
         <div className={Styles.rooms_item}>
           <div className={Styles.rooms_img}>
-            <Image src="/image/room_3.jpg" width="356" height="200" alt="room-img"></Image>
+            <Image src="/image/room_3.webp" width="356" height="200" alt="room-img"></Image>
           </div>
           <div className={Styles.rooms_text}>
             <h1>Suits Room</h1>
